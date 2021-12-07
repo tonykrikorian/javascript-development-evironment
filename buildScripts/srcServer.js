@@ -14,3 +14,6 @@ app.listen(port, (err) => {
   if (err) console.log(err);
   if (!err) open(`http://localhost:${port}`);
 });
+
+//Para exponer el website con localtunnel se ejecuta el siguiente comando
+// lg --port 3000 --subdomain tony
