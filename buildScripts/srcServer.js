@@ -19,6 +19,7 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, (err) => {
+  // eslint-disable-next-line no-console
   if (err) console.log(err);
   if (!err) open(`http://localhost:${port}`);
 });
